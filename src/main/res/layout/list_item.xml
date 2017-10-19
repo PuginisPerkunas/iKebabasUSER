@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@android:color/transparent"
+        android:id="@+id/imgg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/test"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="11dp"
+        android:layout_above="@+id/uzsakytiBTN"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="7dp" />
+    <TextView
+        android:id="@+id/aprasymoTxt"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:text="New Text dsfsdf sdfsdf "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingLeft="14dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignBottom="@+id/imgg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/uzsakytiBTN"
+        android:textAllCaps="false"
+        android:background="@drawable/roundbtn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="@android:color/white"
+        android:text="Uzsakyti"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/pavadinimoTxt"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Pavadinimas" />
+
+    <TextView
+        android:id="@+id/kainosTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="kaina"
+        android:layout_alignTop="@+id/aprasymoTxt"
+        android:layout_toLeftOf="@+id/imgg"
+        android:layout_toStartOf="@+id/imgg" />
+
+</RelativeLayout>
